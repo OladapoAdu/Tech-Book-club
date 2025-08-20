@@ -1,0 +1,129 @@
+* {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+.head-sect {
+  width: 100%;
+  background-image: url(Images/grid.webp);
+  background-size: cover;
+  background-position: center;
+  padding: 10px 0;
+}
+
+/* HERO */
+#hero-section h1 {
+  font-size: clamp(2rem, 5vw, 80px);
+  font-weight: bolder;
+  background: -webkit-linear-gradient(orange 10%, black 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.hero-img {
+  border-radius: 10px;
+}
+
+.avatars {
+  width: 110px;
+  height: auto;
+}
+
+
+
+/* FEATURES */
+ul {
+  list-style-image: url(Images/formkit--checkbox.svg);
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+.techs{
+    position: relative;
+    left: 95%;
+    bottom: -50%;
+    z-index: 1;
+}
+
+
+/* ROADMAP */
+#roadmap {
+  background-image: url(Images/grid.webp);
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  padding: 40px 20px;
+}
+
+#roadmap h4 {
+  border: 2px solid black;
+  display: inline-block;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+#roadmap p {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+#roadmap .roadmap-arrow {
+  /* width: 50px; */
+  height: auto;
+  position: relative;
+  top: -45px;
+}
+
+
+h1 {
+  font-size: clamp(2rem, 5vw, 80px);
+  font-weight: bolder;
+  color: #000;
+}
+
+/* QUOTE SECTION */
+#quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+#quote h2{
+    font-weight: bold;
+    text-align: center;
+}
+
+#quote p{
+    color: gray;
+}
+
+/* FOOTER */
+footer{
+    background-color: rgb(2, 43, 2);
+    width: 100%;
+    margin: 0;
+
+}
+
+footer h1{
+    color: white;
+}

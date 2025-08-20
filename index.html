@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech BookClub</title>
+
+    <!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="head-sect">
+        <nav class="navbar navbar-light container">
+            <a class="navbar-brand" href="#">
+                <img src="Images/logo.webp" alt="Logo" class="d-inline-block align-text-top" width="196" height="36">
+            </a>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="container my-5" id="hero-section">
+        <div class="row row-cols-1 row-cols-md-2 align-items-center g-4">
+            <div class="col">
+                <h1>Join the ultimate tech book club</h1>
+                <p>
+                    Turn your reading time into learning time with fellow tech enthusiasts. 
+                    Get curated recommendations, join vibrant discussions, and level up your skills one chapter at a time.
+                </p>
+                <button type="button" class="btn btn-outline-success mb-3">REVIEW MEMBERSHIP OPTIONS ↓</button>
+
+                <div class="d-flex align-items-center gap-3 reviews">
+                    <img src="Images/avatars.webp" alt="Members" class="avatars">
+                    <div class="ratings">
+                        <div>
+                            <img src="Images/star.svg" alt="">
+                            <img src="Images/star.svg" alt="">
+                            <img src="Images/star.svg" alt="">
+                            <img src="Images/star.svg" alt="">
+                            <img src="Images/star.svg" alt="">
+                        </div>
+                        <p class="mb-0">200 developers joined already</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <img src="Images/hero-lg.webp" alt="Hero" class="img-fluid rounded hero-img">
+            </div>
+        </div>
+    </section>
+
+    <section class="container my-5">
+        <div class="row row-cols-1 row-cols-md-2 g-4 align-items-center">
+
+            <!-- Feature 1 -->
+            <!-- Image -->
+            <div class="col order-2 order-md-1">
+            <img src="Images/feature-1-lg.DEdl5KeM.webp" alt="Feature 1" class="img-fluid rounded">
+            </div>
+
+            <!-- Details -->
+            <div class="col order-1 order-md-2">
+            <h1>Read together, grow together</h1>
+            <ul>
+                <li>Monthly curated tech reads selected by industry experts</li>
+                <li>Virtual and in-person meetups for deep-dive discussions</li>
+                <li>Early access to new tech book releases</li>
+                <li>Author Q&A sessions with tech thought leaders</li>
+            </ul>
+            </div>
+
+            <!-- Feature 2 -->
+            <!-- Details -->
+            <div class="col order-3 order-md-3">
+            <h1>Not your average book club</h1>
+            <p>
+                Connect with a community that speaks your language — from Python to TypeScript and everything in between. 
+                Our discussions blend technical depth with practical applications.
+            </p>
+            <span>
+                <img src="Images/technologies.CvHT9AEZ_2fgGnK.svg" alt="" class="techs my-5 d-none d-md-block">
+            </span>
+            </div>
+
+            <!-- Image -->
+            <div class="col order-4 order-md-4">
+            <img src="Images/feature-2-lg.XPZXlTh0.webp" alt="Feature 2" class="img-fluid rounded">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ROADMAP SECTION -->
+    <section class="container my-5 d-none d-md-block" id="roadmap">
+        <h1 class="text-center mb-5">Your tech reading journey</h1>
+
+        <div class="row text-center align-items-center justify-content-center g-4">
+
+            <!-- Step 1 -->
+            <div class="col">
+                <h4>1</h4>
+                <p>Choose your membership tier</p>
+            </div>
+
+            <!-- Arrow -->
+            <div class="col-auto">
+                <img src="Images/arrow.Bkii4T_6_ZDmLMX.svg" alt="Arrow" class="roadmap-arrow">
+            </div>
+
+            <!-- Step 2 -->
+            <div class="col">
+                <h4>2</h4>
+                <p>Get your monthly book selection</p>
+            </div>
+
+            <!-- Arrow -->
+            <div class="col-auto">
+                <img src="Images/arrow.Bkii4T_6_ZDmLMX.svg" alt="Arrow" class="roadmap-arrow">
+            </div>
+
+            <!-- Step 3 -->
+            <div class="col">
+                <h4>3</h4>
+                <p>Join our discussion forums</p>
+            </div>
+
+            <!-- Arrow -->
+            <div class="col-auto">
+                <img src="Images/arrow.Bkii4T_6_ZDmLMX.svg" alt="Arrow" class="roadmap-arrow">
+            </div>
+
+            <!-- Step 4 -->
+            <div class="col">
+                <h4>4</h4>
+                <p>Attend exclusive meetups</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- MEMBERSHIP SECTION  -->
+    <section class="container my-5" id="membership-cards">
+        <h1 class="text-center mb-5">Membership options</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+
+            <!-- Starter -->
+            <div class="col">
+                <div class="card h-100 p-4 border-2 rounded-3 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Starter</h5>
+                        <h2 class="card-subtitle mb-2 text-dark fs-2 fw-bold">$19 <small class="text-muted fw-normal">/month</small></h2>
+                        <ul class="list-unstyled mt-4 mb-4">
+                            <li class="d-flex align-items-center mb-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg text-success me-2" viewBox="0 0 16 16">
+                                    <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.381a.733.733 0 0 1 .012-1.06z"/>
+                                </svg>
+                                <span>1 book/month</span>
+                            </li>
+                            <li class="d-flex align-items-center mb-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg text-success me-2" viewBox="0 0 16 16">
+                                    <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.381a.733.733 0 0 1 .012-1.06z"/>
+                                </svg>
+                                <span>Online forums</span>
+                            </li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-outline-secondary">SUBSCRIBE NOW</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pro -->
+            <div class="col">
+                <div class="card h-100 p-4 border-2 rounded-3 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Pro</h5>
+                        <h2 class="card-subtitle mb-2 text-dark fs-2 fw-bold">$29 <small class="text-muted fw-normal">/month</small></h2>
+                        <ul class="list-unstyled mt-4 mb-4">
+                            <li class="d-flex align-items-center mb-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg text-success me-2" viewBox="0 0 16 16">
+                                    <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.381a.733.733 0 0 1 .012-1.06z"/>
+                                </svg>
+                                <span>2 books/month</span>
+                            </li>
+                            <li class="d-flex align-items-center mb-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg text-success me-2" viewBox="0 0 16 16">
+                                    <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.381a.733.733 0 0 1 .012-1.06z"/>
+                                </svg>
+                                <span>Virtual meetups</span>
+                            </li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-outline-secondary">SUBSCRIBE NOW</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Enterprise -->
+            <div class="col">
+                <div class="card h-100 p-4 border-2 rounded-3 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Enterprise</h5>
+                        <h2 class="card-subtitle mb-2 text-dark fs-2 fw-bold">Custom</h2>
+                        <ul class="list-unstyled mt-4 mb-4">
+                            <li class="d-flex align-items-center mb-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg text-success me-2" viewBox="0 0 16 16">
+                                    <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.381a.733.733 0 0 1 .012-1.06z"/>
+                                </svg>
+                                <span>Team access</span>
+                            </li>
+                            <li class="d-flex align-items-center mb-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg text-success me-2" viewBox="0 0 16 16">
+                                    <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.381a.733.733 0 0 1 .012-1.06z"/>
+                                </svg>
+                                <span>Private sessions</span>
+                            </li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-outline-secondary">TALK TO US</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- QUOTE SECTION -->
+    <section class="container my-5" id="quote">
+        <div class="stars">
+            <img src="Images/star.svg" alt="">
+            <img src="Images/star.svg" alt="">
+            <img src="Images/star.svg" alt="">
+            <img src="Images/star.svg" alt="">
+            <img src="Images/star.svg" alt="">
+        </div>
+
+        <h2>"This book club transformed my technical reading from a solitary 
+            activity into an enriching community experience. The discussions are gold!"
+        </h2>
+
+        <p>Sarah Chen, Software Architect</p>
+    </section>
+
+
+
+    <!-- FOOTER -->
+    <footer class="footer-sect py-5 mt-5">
+        <div class="container text-center text-white">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8">
+                    <h1 class="footer-title">Ready to debug your reading list?</h1>
+                    <a href="#" class="btn btn-outline-success mt-4">REVIEW MEMBERSHIP OPTIONS ↑</a>
+                    <div class="d-flex align-items-center justify-content-center gap-3 reviews mt-4">
+                        <img src="Images/avatars.webp" alt="Members" class="avatars">
+                        <div class="ratings">
+                            <div>
+                                <img src="Images/star.svg" alt="">
+                                <img src="Images/star.svg" alt="">
+                                <img src="Images/star.svg" alt="">
+                                <img src="Images/star.svg" alt="">
+                                <img src="Images/star.svg" alt="">
+                            </div>
+                            <p class="mb-0 text-white">200 developers joined already</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="mt-5 mb-3 border-secondary">
+            <div class="d-flex justify-content-between align-items-center">
+                <p class="mb-0 text-white">&copy; 2024 - Tech Book Club</p>
+                <div class="social-icons">
+                    
+                    <a href="#" class="text-white me-2"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.682 6.682 0 0 1-1.888.518 3.332 3.332 0 0 0 1.45-1.815 6.67 6.67 0 0 1-2.126.857A3.328 3.328 0 0 0 7.875 6.45a9.405 9.405 0 0 1-6.767-3.429 3.33 3.33 0 0 0 1.03 4.45 3.344 3.344 0 0 1-1.503-.414v.041a3.33 3.33 0 0 0 2.673 3.23 3.336 3.336 0 0 1-1.503.057 3.33 3.33 0 0 0 3.116 2.3z"/>
+                    </svg></a>
+                    <a href="#" class="text-white"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path d="M0 1.146C0 .513.526 0 1.176 0h13.648C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.176 1.146H1.176C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zM3.769 5.232c-.744 0-1.21-.51-.893-1.11L3.77 4.09l.002-.003c.316.6.302 1.103-.893 1.145zM15 13.394h-2.31c-.694 0-1.258-.564-1.258-1.258V6.169h-2.31v6.167c0 1.343 1.092 2.435 2.435 2.435h.01c1.343 0 2.435-1.092 2.435-2.435z"/>
+                    </svg></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
