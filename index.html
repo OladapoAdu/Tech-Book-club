@@ -99,10 +99,11 @@
     </section>
 
     <!-- ROADMAP SECTION -->
-    <section class="container my-5 d-none d-md-block" id="roadmap">
+    <section class="container my-5" id="roadmap">
         <h1 class="text-center mb-5">Your tech reading journey</h1>
 
-        <div class="row text-center align-items-center justify-content-center g-4">
+        <!-- Updated row to use flex-column on small screens and flex-row on medium screens and up -->
+        <div class="d-flex flex-column flex-md-row text-center align-items-center justify-content-center g-4">
 
             <!-- Step 1 -->
             <div class="col">
@@ -110,8 +111,8 @@
                 <p>Choose your membership tier</p>
             </div>
 
-            <!-- Arrow -->
-            <div class="col-auto">
+            <!-- Arrow - hidden on small screens -->
+            <div class="col-auto d-none d-md-block">
                 <img src="Images/arrow.Bkii4T_6_ZDmLMX.svg" alt="Arrow" class="roadmap-arrow">
             </div>
 
@@ -121,8 +122,8 @@
                 <p>Get your monthly book selection</p>
             </div>
 
-            <!-- Arrow -->
-            <div class="col-auto">
+            <!-- Arrow - hidden on small screens -->
+            <div class="col-auto d-none d-md-block">
                 <img src="Images/arrow.Bkii4T_6_ZDmLMX.svg" alt="Arrow" class="roadmap-arrow">
             </div>
 
@@ -132,8 +133,8 @@
                 <p>Join our discussion forums</p>
             </div>
 
-            <!-- Arrow -->
-            <div class="col-auto">
+            <!-- Arrow - hidden on small screens -->
+            <div class="col-auto d-none d-md-block">
                 <img src="Images/arrow.Bkii4T_6_ZDmLMX.svg" alt="Arrow" class="roadmap-arrow">
             </div>
 
